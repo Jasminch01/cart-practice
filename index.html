@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/5de757eba6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="flex justify-center items-center mx-auto w-[80%]">
+      <div
+        class="grid lg:grid-cols-2 md:grid-cols-1 gap-3 w-[50%] mx-auto"
+      >
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-32" src="./images/pngwing 10.png" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Flower 1</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button onclick="handleButton(this)" class="btn btn-primary text-white cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-32" src="./images/pngwing 6.png" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Flower 2</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button onclick="handleButton(this)" class="btn btn-primary text-white cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-32" src="./images/pngwing 7.png" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Flower 3</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button onclick="handleButton(this)" class="btn btn-primary text-white cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img class="w-32" src="./images/pngwing 8.png" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Flower 4</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button onclick="handleButton(this)" class="btn btn-primary text-white cart-btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center flex-1 shadow-xl bg-base-100 py-3 space-y-1 cart-container">
+        <p class="text-3xl"><i class="fa-solid fa-cart-shopping"></i></p>
+        <div id="cart-flower">
+          
+        </div>
+        <p class="text-xl font-medium total">Total:<span>00</span></p>
+        <p>Descount:<span>00</span></p>
+        <p>Grand Total<span>00</span></p>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+    <!-- <script src="./ala.js"></script> -->
+  </body>
+</html>
